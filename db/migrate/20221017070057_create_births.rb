@@ -3,7 +3,7 @@ class CreateBirths < ActiveRecord::Migration[6.0]
     create_table :births do |t|
       t.string :name,null:false
       t.string :item,null:false
-      t.datetime :birthday
+      t.string :birthday,null:false
       t.timestamps
     end
   end

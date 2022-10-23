@@ -1,2 +1,3 @@
 class Birth < ApplicationRecord
+  
 end

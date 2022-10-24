@@ -10,12 +10,10 @@
 <div class="rooms">
   <div class="room">
     <div class="room-name">
-      <a href="#">birthdayroom1</a>
+        <% @births.each do |birth| %>
+        <%= link_to birth.name, "#" %>
+      <%end%>
     </div>
   </div>
-  <div class="room">
-    <div class="room-name">
-      <a href="#">birthdayroom2</a>
-    </div>
-  </div>
+
 </div>
